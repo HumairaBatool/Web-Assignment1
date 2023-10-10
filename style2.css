@@ -1,0 +1,164 @@
+.mainDiv {
+  display: flex;
+  background-color: rgb(245, 247, 250);
+
+  column-gap: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+
+}
+.firstDiv {
+  width: 50%;
+}
+.secondDiv {
+  width: 50%;
+ text-align: right;
+}
+h1 {
+  color: rgb(231, 149, 10);
+  font-weight: 900;
+  font-size: 74px;
+  font-family: "Nunito", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+p {
+  font-size: 24px;
+  font-family: "Nunito", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 30px; 
+    background-color: black; 
+}
+.topnav a.how-it-works {
+    border-right: 1px solid rgb(205, 201, 201);
+}
+.topnav a.freelancer{
+    color:red
+}
+
+.topnav {
+    background-color: rgb(245, 247, 250);
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: left;
+    background-color: rgb(245, 247, 250);
+  }
+
+.topnav_Search_Search .search-container {
+  float: left;
+  cursor: pointer; 
+   border-radius:10px 0px 0px 10px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Gray box shadow */
+}
+
+.topnav_Search input[type="text"] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  padding-left:50px;
+  padding-right:50px;
+
+  font-size: 17px;
+  border: none;
+}
+
+.topnav_Search .search-container button {
+ 
+  padding: 20px 26px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: rgb(231, 149, 10);
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;  border-radius:0px 10px 10px 0px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .mainDiv{
+    display: block;
+
+   padding:30px
+
+  }
+  .firstDiv{
+    width:100%;
+    text-align: center;
+
+  }
+  h1 {
+    color: rgb(231, 149, 10);
+    margin: 0px;
+    
+    font-weight: 900px;
+    font-size: 45px;
+    font-family: "Nunito", Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 40px;
+  }
+  .secondDiv{
+    width:100%;
+    text-align: center;
+  }
+  .topnav a {
+    display: none;
+
+  }
+  #logo {
+    display: contents;
+  }
+
+}
+.search-container1 {
+  float: right;
+  display: flex;
+  align-items: center;
+  border: 2px solid  rgb(10, 161, 231);
+  border-radius: 5px;
+  width: 200px; 
+  padding: 8px;
+  margin-top:6px;
+}
+.search-container1 input[type="text"] {
+  border: none;
+  outline: none;
+  color: rgb(10, 161, 231);
+  flex-grow: 1;
+  padding: 5px;
+  background-color: transparent; 
+}
+
+/*Dropdown arrow*/
+.search-container1 i {
+  margin-left: 0px;
+  color: rgb(10, 161, 231);
+  cursor: pointer;
+  font-size: 18px; 
+}
+
+
+
+
